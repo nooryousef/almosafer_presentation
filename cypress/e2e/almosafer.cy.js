@@ -9,7 +9,7 @@ describe('assertion for ', () => {
 let arab="العربية"
     cy.get('[data-testid="Header__LanguageSwitch"]').should('have.text',arab).click()
 
-    cy.get('#uncontrolled-tab-example-tab-flights ').should('have.class','nav-item nav-link active')
+    cy.get('#uncontrolled-tab-example-tab-flights ').should('have.class','nav-item nav-link active').click()
 
   })
 })
